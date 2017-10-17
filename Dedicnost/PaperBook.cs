@@ -11,10 +11,11 @@ namespace Dedicnost
         private int weight;
         private int stock;// i = i
 
-        public PaperBook(Author author, int pages, string name)
+        public PaperBook(Author author, int pages, string name, int weight, int stock)
             : base(author, pages, name)
         {
-
+            this.weight = weight;
+            this.stock = stock;
         }
         public int Weight
         {

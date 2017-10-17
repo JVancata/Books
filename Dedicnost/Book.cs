@@ -12,6 +12,8 @@ namespace Dedicnost
         private string isbn; //  Kromě arabských číslic se v něm objevuje znak X (římská číslice 10) 
         private Author author;
         private int pages;
+        //private int weight;
+        //private int stock;
 
 
         public Book(Author author, int pages, string name)
@@ -19,6 +21,8 @@ namespace Dedicnost
             this.author = author;
             this.pages = pages;
             this.name = name;
+            //this.weight = weight;
+            //this.stock = stock;
             //Console.Write("Čus");
         }
 
